@@ -1,1 +1,21 @@
-<p>home-slide works!</p>
+<section class="banner_main">
+    <div class="banner_text">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-10">
+                 <div class="stewart">
+                    <span>construction</span>
+                    <h1>Stewart <br> Fitness </h1>
+                    <p> Lorem Ipsum available, but the majority have suffered lteration in some.</p>
+                    <a class="read_more" [routerLink]="['']">Contact us</a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    <section  class="bg-image"> 
+         <div class="slide" [@slider]="selectedIndex" *ngFor="let image of images">
+            <img [src]="image" style="width:100%;" class="slidedown" />
+            </div> 
+      </section>
+    </section>

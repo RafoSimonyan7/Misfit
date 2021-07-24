@@ -1,0 +1,72 @@
+.titlepage {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.titlepage h2 {
+    font-size: 40px;
+    color: #191919;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 0;
+    display: inline-block;
+}
+
+.titlepage h2::before {
+    position: relative;
+    content: "";
+    background-color: #00274a;
+    width: 100px;
+    height: 5px;
+    top: 55px;
+    display: block;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #191919;
+    color: #fff;
+    padding: 8px 0px;
+    width: 100%;
+    max-width: 168px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 50px
+}
+
+.read_more:hover {
+    background: #00274a;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+.back_re {
+    background-color: #022c53;
+}
+
+.back_re .title {
+    text-align: center;
+}
+
+.back_re .title h2 {
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+.margin_0 {
+    margin: 0 !important;
+}

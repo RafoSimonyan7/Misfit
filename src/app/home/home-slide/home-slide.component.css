@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner_main {
+    position: relative;
+}
+.col-md-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.banner_text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stewart span {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 35px;
+    color: #fff;
+    display: block;
+    padding-bottom: 24px;
+}
+
+.stewart h1 {
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 111px;
+    line-height: 90px;
+    color: #fff;
+}
+
+.stewart p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.stewart .read_more {
+    max-width: 205px;
+    height: 53px;
+    padding: 10px 0;
+    color: #fff !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #00274a;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #191919;
+    color: #fff;
+    padding: 8px 0px;
+    width: 100%;
+    max-width: 168px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.stewart .read_more:hover {
+    background-color: #121212;
+}
+

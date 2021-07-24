@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about {
+    background-color: #fff;
+    padding-top: 80px;
+}
+
+.about .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+    max-width: 443px;
+    width: 100%;
+    float: right;
+    margin-right: 15px;
+}
+
+.col-md-7 {
+    margin-left: 15px;
+}
+
+.about .titlepage h2 {
+    font-size: 40px;
+    color: #191919;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 0;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+}
+
+.about .titlepage h2::before {
+    position: relative;
+    content: "";
+    background-color: #00274a;
+    width: 100px;
+    height: 5px;
+    top: 55px;
+    display: block;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.about .titlepage p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #090808;
+}
+
+.about_img {
+    overflow: hidden;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.about_img figure img:hover {
+    transform: scale(1.2);
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #191919;
+    color: #fff;
+    padding: 8px 0px;
+    width: 100%;
+    max-width: 168px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 50px;
+}

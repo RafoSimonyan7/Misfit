@@ -25,7 +25,7 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
   ]
 })
 export class HomeModule { }
