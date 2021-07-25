@@ -65,7 +65,7 @@ export class HomeSlideComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this._images = ["../../../assets/images/banner1.jpg", "../../../assets/images/banner2.jpg", "../../../assets/images/banner3.jpg"];
+    this._images = ["../../../assets/banner1.jpg", "../../../assets/banner2.jpg", "../../../assets/banner3.jpg"];
   }
   ngAfterViewInit(){
     setInterval(() => {
