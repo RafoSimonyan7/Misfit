@@ -4,6 +4,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner_main {
@@ -78,4 +79,34 @@
 .stewart .read_more:hover {
     background-color: #121212;
 }
+
+button {
+    top: 80%;
+    background: #111;
+    opacity: 1;
+    font-size: 30px;
+    width: 69px;
+    color: #fff;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.prev {
+    position: absolute;
+    left: 8%;
+}
+
+.next {
+    position: absolute;
+    right: 81%;
+}
+
+button:hover {
+    background-color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+    color: #111;
+}
+
 

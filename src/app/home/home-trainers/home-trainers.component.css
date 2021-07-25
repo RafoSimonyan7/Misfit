@@ -1,0 +1,142 @@
+.trainers {
+    background: url(../../../assets/images/tra_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px 0 30px 0;
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-md-4 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.trainers .titlepage {
+    text-align: center;
+}
+.titlepage {
+    padding-bottom: 40px;
+}
+
+.trainers .titlepage h2 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.titlepage h2 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+.trainers .titlepage h2::before {
+    background-color: #fff;
+}
+.titlepage h2::before {
+    position: relative;
+    content: "";
+    width: 100px;
+    height: 5px;
+    top: 55px;
+    display: block;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.trainers .titlepage p {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 25px;
+    font-weight: 400;
+}
+p {
+    margin: 0px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.trainers .trainer_box {
+    text-align: left;
+    margin-bottom: 30px;
+    transition: ease-in all 0.5s;
+}
+
+.trainers .trainer_box .trainer_img {
+    overflow: hidden;
+}
+
+.trainers .trainer_box .trainer_img figure {
+    margin: 0;
+}
+
+.trainers .trainer_box .trainer_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.trainers .trainer_box .trainer_img figure img:hover {
+    transform: scale(1.2);
+}
+
+.trainers .trainer_box .trainer {
+    padding: 33px 30px;
+    text-align: center;
+}
+
+.trainers .trainer_box .trainer h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    transition: ease-in all 0.5s;
+    margin: auto;
+}
+
+.trainers .trainer_box .trainer p {
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+#trai:hover.trainer_box {
+    background-color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+#trai:hover .trainer h3 {
+    color: #00274a;
+    transition: ease-in all 0.5s;
+}
+
+#trai:hover .trainer p {
+    color: #000000;
+    transition: ease-in all 0.5s;
+}

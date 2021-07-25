@@ -16,6 +16,8 @@
     <section  class="bg-image"> 
          <div class="slide" [@slider]="selectedIndex" *ngFor="let image of images">
             <img [src]="image" style="width:100%;" class="slidedown" />
-            </div> 
+            </div>
+            <button (click)="previous()" class="prev"><fa-icon [icon]="faLongArrowAltLeft"></fa-icon></button> 
+            <button (click)="next()" class="next"><fa-icon [icon]="faLongArrowAltRight"></fa-icon></button>
       </section>
     </section>

@@ -10,6 +10,8 @@ import { HomeNewsComponent } from './home-news/home-news.component';
 import { HomeTrainersComponent } from './home-trainers/home-trainers.component';
 import { HomeGalleryComponent } from './home-gallery/home-gallery.component';
 import { HomeContactComponent } from './home-contact/home-contact.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
   imports: [
     CommonModule,
     HomeRoutingModule,
+    FontAwesomeModule
   ]
 })
 export class HomeModule { }

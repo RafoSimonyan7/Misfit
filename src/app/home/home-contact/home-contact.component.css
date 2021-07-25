@@ -1,0 +1,125 @@
+.contact {
+    background: #fff;
+    padding-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    flex-direction: column;
+}
+
+.col-md-6 .main_form .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+}
+
+
+.contact .titlepage {
+    text-align: left;
+    padding-bottom: 48px;
+}
+
+.main_form .contactus {
+    padding: 0 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    color: #00274a;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 10px;
+    border: #0f98f8 solid 1px;
+}
+
+.main_form .textarea {
+    border: #fff solid 1px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: #fff;
+    color: #00274a;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 12px 15px 0 15px;
+    border-radius: 10px;
+    border: #0f98f8 solid 1px;
+    height: 122px;
+}
+
+.main_form .send_btn {
+    font-size: 18px;
+    transition: ease-in all 0.5s;
+    background-color: #191919;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 0px;
+    max-width: 168px;
+    width: 100%;
+    display: block;
+    margin-top: 10px !important;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.main_form .send_btn:hover {
+    background-color: #00274a;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #00274a;
+    opacity: 1;
+}
+
+
+.contact .titlepage h2 {
+    color: #191919;
+    font-family: 'Poppins', sans-serif;
+}
+.titlepage h2 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+.contact .titlepage h2::before {
+    background-color: #000000;
+}
+.titlepage h2::before {
+    position: relative;
+    content: "";
+    width: 100px;
+    height: 5px;
+    top: 55px;
+    display: block;
+    margin: 0 auto;
+    margin-right: 0;
+}

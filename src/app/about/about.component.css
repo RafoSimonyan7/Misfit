@@ -1,6 +1,11 @@
+.container {
+    max-width: 100%;
+}
+
 .titlepage {
     text-align: center;
     padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .titlepage h2 {
@@ -10,6 +15,10 @@
     font-weight: 500;
     padding: 0;
     display: inline-block;
+}
+
+.col-md-12 {
+    width: 100%;
 }
 
 .titlepage h2::before {
@@ -24,11 +33,6 @@
     margin-right: 0;
 }
 
-.d_flex {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
 .read_more {
     font-size: 17px;
@@ -52,6 +56,7 @@
 }
 .back_re {
     background-color: #022c53;
+    font-family: 'Poppins', sans-serif;
 }
 
 .back_re .title {
@@ -69,4 +74,42 @@
 
 .margin_0 {
     margin: 0 !important;
+}
+
+.about {
+    background-color: #fff;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container {
+    max-width: 1170px;
+    display: flex;
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.row {
+    display: flex;
+}
+
+.about .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+    max-width: 443px;
+    width: 100%;
+    float: right;
+}
+
+.about .titlepage p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #090808;
 }

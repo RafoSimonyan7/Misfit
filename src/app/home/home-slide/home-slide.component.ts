@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, query, style, animate, group } from '@angular/animations';
+import { faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -51,6 +53,8 @@ import { trigger, transition, query, style, animate, group } from '@angular/anim
   ],
 })
 export class HomeSlideComponent implements OnInit {
+  faLongArrowAltLeft = faLongArrowAltLeft;
+  faLongArrowAltRight = faLongArrowAltRight;
   recImage:any
 
   private _images: string[] = [];
